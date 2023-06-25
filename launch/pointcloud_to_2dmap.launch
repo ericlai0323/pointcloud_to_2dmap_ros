@@ -1,5 +1,5 @@
 <launch>
-  <node name="pointcloud_to_2dmap_node" pkg="pointcloud_to_2dmap" type="pointcloud_to_2dmap_ros" output="screen">
+  <node name="pointcloud_to_2dmap_node" pkg="pointcloud_to_2dmap_ros" type="pointcloud_to_2dmap_ros" output="screen">
     <param name="resolution" value="0.1" type="double" />
     <param name="map_width" value="10240" type="int" />
     <param name="map_height" value="10240" type="int" />
